@@ -1,13 +1,13 @@
 # Working-Clock-Project
-A simple Prroject to record employer working hours for office management with Raspberry Pi 3b+, MRFC522, and MySQL
+Using simple devices to record employer working hours for office management
 HradWare: aspberry Pi 3b+, MRFC522, LED, Buzzer
 Software: Python3, MySQL 8.0
 
-# Requirements
-Install SPI-Py from https://github.com/lthiery/SPI-Py
-Download MRFC522 python library git clone https://github.com/mxgxw/MFRC522-python.git
+## Requirements
+*Install SPI-Py from https://github.com/lthiery/SPI-Py
+*Download MRFC522 python library git clone https://github.com/mxgxw/MFRC522-python.git
 
-# Pins setting
+## Pins setting
 
 |   Pi PIN NUM  | Second Header |  
 | ------------- | ------------- |
