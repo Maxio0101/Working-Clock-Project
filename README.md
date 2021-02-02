@@ -1,5 +1,5 @@
 # Working-Clock-Project
-Using simple devices to record employer working hours for office management<br>
+Using simple devices to record employees working hours for office management<br>
 HradWare: aspberry Pi 3b+, MRFC522, LED, Buzzer<br>
 Software: Python3, MySQL 8.0<br>
 
