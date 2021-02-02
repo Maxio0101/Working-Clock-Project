@@ -1,3 +1,6 @@
+#
+#TimeStamp will be storaged into remote MySQL DB
+#
 import configparser
 import MySQLdb
 from datetime import date, datetime
