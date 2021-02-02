@@ -4,7 +4,7 @@ HradWare: aspberry Pi 3b+, MRFC522, LED, Buzzer<br>
 Software: Python3, MySQL 8.0<br>
 
 ## Requirements
-*Install SPI-Py from https://github.com/lthiery/SPI-Py<br>
+*Install SPI-Py  https://github.com/lthiery/SPI-Py<br>
 *Download MRFC522 python library git clone https://github.com/mxgxw/MFRC522-python.git<br>
 
 ## Pins setting
