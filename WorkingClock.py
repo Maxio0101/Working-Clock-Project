@@ -19,12 +19,12 @@ import os
 GPIO.setmode(GPIO.BOARD)
 
 #pin setting
-Bezzer = 7   
+Buzzer = 7   
 LED1 = 11
 counter = 0
 
 #output pin setting
-GPIO.setup(Bezzer, GPIO.OUT)
+GPIO.setup(Buzzer, GPIO.OUT)
 GPIO.setup(LED1, GPIO.OUT)
 
 
@@ -38,11 +38,11 @@ def close_read(signal,frame):
     GPIO.cleanup()
     
 def log_write(StaffID, today, currentTime):
-    '''
-    Recod time stamp in Raspberry pi 
-    '''
+    """
+    Record time stamp in Raspberry pi 
+    """
     try:
-        with open("../MFRC522-python/WTStampLogger.txt", "a") as temp:
+        with open("../Working Clock/WTStampLogger.txt", "a") as temp:
             temp.write(str(StaffID)+"@"+str(time.time())+"@"+today+"@"+str(now)+'\n')
     except IOError as err:
         print(err)
@@ -113,11 +113,11 @@ while continue_reading:
             TimeRecord().close_db()
                 
                     
-            GPIO.output(Bezzer,GPIO.HIGH) 
+            GPIO.output(Buzzer,GPIO.HIGH) 
             time.sleep(0.2)
             
             CardReader.MFRC522_StopCrypto1()
-            GPIO.output(Bezzer,GPIO.LOW)
+            GPIO.output(Buzzer,GPIO.LOW)
             
             
             GPIO.output(LED1,GPIO.LOW) #LED off

@@ -8,7 +8,7 @@ from datetime import date, datetime
 
 
 class TimeRecord:
-    def __init__(self, path = '../MFRC522-python/credential.ini'):
+    def __init__(self, path = '../Working Clock/credential.ini'):
         config = configparser.ConfigParser()
         config.read(path)
         db_conf = config['DB']
