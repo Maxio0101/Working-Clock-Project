@@ -11,7 +11,7 @@ Software: Python3, MySQL 8.0<br>
 
 ## Pins setting
 
-|   Pi PIN NUM  |    PIN Name   |  
+|   Pi PIN NUM  |  PIN Name     |  
 | ------------- | ------------- |
 |       24      |  MRFC522_SDA  | 
 |       23      |  MRFC522_SCK  | 
