@@ -1,7 +1,7 @@
 # Working-Clock-Project
 Using simple devices to record employees working hours for office management<br>
 When a RFID key is scanned, the LED flashes.<br>
-If the RFID key is Authorizated, and the timestamp is record into database, there will be a sound "Bi~" to confirm this action.<br>
+If the RFID key is Authorizated, and the timestamp is record into the remote database server, there will be a sound "Bi~" to confirm this action.<br>
 Hardware: Raspberry Pi 3b+, MRFC522, LED, Buzzer<br>
 Software: Python3, MySQL 8.0<br>
 
